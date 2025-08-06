@@ -4,9 +4,7 @@ import com.patientservices.dto.PatientRequestDTO;
 import com.patientservices.dto.PatientResponseDTO;
 import com.patientservices.service.PatientService;
 import io.swagger.v3.oas.annotations.Operation;
-import jakarta.validation.groups.Default;
 import org.springframework.http.ResponseEntity;
-import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
