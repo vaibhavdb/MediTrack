@@ -1,6 +1,6 @@
 package com.patientservices.dto;
 
-public class PatientResponseDTO {
+public class PatientResponseDTO{
     private String id;
     private String name;
     private String email;
