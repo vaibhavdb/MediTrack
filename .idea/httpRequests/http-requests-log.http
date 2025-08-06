@@ -1,0 +1,9 @@
+GET http://localhost:9595/patients
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-08-06T093406.200.json
+
+###
+
