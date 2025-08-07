@@ -103,12 +103,5 @@
     "email": "isabella.walker@example.com",
     "address": "789 Willow St, Springfield",
     "dateOfBirth": "1987-10-17"
-  },
-  {
-    "id": "5a48ac3b-2f8f-43ca-8f8c-dec68ca00309",
-    "name": "John Doe Kafka Test",
-    "email": "kafka_test11@example.com",
-    "address": "123 main street22",
-    "dateOfBirth": "1995-09-09"
   }
 ]

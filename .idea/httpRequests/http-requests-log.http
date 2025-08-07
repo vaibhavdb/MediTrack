@@ -1,3 +1,166 @@
+DELETE http://localhost:9595/patients/223e4567-e89b-12d3-a456-426614174012
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+GET http://localhost:9595/patients
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-08-07T184534.200.json
+
+###
+
+GET http://localhost:9595/patients
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-08-07T184526.200.json
+
+###
+
+DELETE http://localhost:9595/patients/223e4567-e89b-12d3-a456-426614174014
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+GET http://localhost:9595/patients
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-08-07T184447.200.json
+
+###
+
+PUT http://localhost:9595/patients/223e4567-e89b-12d3-a456-426614174014
+Content-Type: application/json
+Content-Length: 147
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name": "John Doe Kafka Test",
+    "email": "kafka11@example.com",
+    "address": "123 main street22",
+    "registeredDate": "2024-11-28"
+  }
+
+<> 2025-08-07T183510.400.json
+
+###
+
+PUT http://localhost:9595/patients/223e4567-e89b-12d3-a456-426614174014
+Content-Type: application/json
+Content-Length: 144
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name": "John Doe Kafka Test",
+    "address": "123 main street22",
+    "dateOfBirth": "1995-09-09",
+    "registeredDate": "2024-11-28"
+  }
+
+<> 2025-08-07T183451.400.json
+
+###
+
+PUT http://localhost:9595/patients/223e4567-e89b-12d3-a456-426614174014
+Content-Type: application/json
+Content-Length: 180
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name": "John Doe Kafka Test",
+    "email": "kafka11@example.com",
+    "address": "123 main street22",
+    "dateOfBirth": "1995-09-09",
+    "registeredDate": "2024-11-28"
+  }
+
+<> 2025-08-07T183439.200.json
+
+###
+
+GET http://localhost:9595/patients
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-08-07T183423.200.json
+
+###
+
+PUT http://localhost:9595/patients/09a966d7-384d-4afa-9c56-f63cc8558c8d
+Content-Type: application/json
+Content-Length: 180
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name": "John Doe Kafka Test",
+    "email": "kafka11@example.com",
+    "address": "123 main street22",
+    "dateOfBirth": "1995-09-09",
+    "registeredDate": "2024-11-28"
+  }
+
+<> 2025-08-07T183408.400.json
+
+###
+
+PUT http://localhost:9595/patients/09a966d7-384d-4afa-9c56-f63cc8558c8d
+Content-Type: application/json
+Content-Length: 180
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name": "John Doe Kafka Test",
+    "email": "kafka11@example.com",
+    "address": "123 main street22",
+    "dateOfBirth": "1995-09-09",
+    "registeredDate": "2024-11-28"
+  }
+
+<> 2025-08-07T182723.400.json
+
+###
+
+PUT http://localhost:9595/patients/09a966d7-384d-4afa-9c56-f63cc8558c8d
+Content-Type: application/json
+Content-Length: 111
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name": "John Doe Kafka Test",
+    "address": "123 main street22",
+    "dateOfBirth": "1995-09-09"
+
+  }
+
+<> 2025-08-07T182648.400.json
+
+###
+
 PUT http://localhost:9595/patients/09a966d7-384d-4afa-9c56-f63cc8558c8d
 Content-Type: application/json
 Content-Length: 123
@@ -652,217 +815,6 @@ User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
 Accept-Encoding: br, deflate, gzip, x-gzip
 
 <> 2025-08-06T192559.200.json
-
-###
-
-POST http://localhost:9595/patients
-Content-Length: 199
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-Accept: application/json
-
-{
-  "name": "John Doe Kafka Test",
-  "email": "kafka_test11@example.com",
-  "address": "123 main street22",
-  "dateOfBirth": "1995-09-09",
-  "registeredDate": "2024-11-28"
-}
-
-<> 2025-08-06T192506.415.json
-
-###
-
-POST http://localhost:9595/patients
-Content-Length: 205
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-Content-Type: application/json
-
-{
-  "name": "John Doe Kafka Test",
-  "email": "kafka_test11@example.com",
-  "address": "123 main street22",
-  "dateOfBirth": "1995-09-09",
-  "registeredDate": "2024-11-28"
-}
-
-<> 2025-08-06T192439.415.json
-
-###
-
-POST http://localhost:9595/patients
-Content-Length: 205
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-Content-Type: application/json
-
-{
-  "name": "John Doe Kafka Test",
-  "email": "kafka_test11@example.com",
-  "address": "123 main street22",
-  "dateOfBirth": "1995-09-09",
-  "registeredDate": "2024-11-28"
-}
-
-<> 2025-08-06T192324.415.json
-
-###
-
-POST http://localhost:9595/patients
-Content-Type: application/json
-Content-Length: 173
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "John Doe Kafka Test",
-  "email": "kafka_test11@example.com",
-  "address": "123 main street22",
-  "dateOfBirth": "1995-09-09",
-  "registeredDate": "2024-11-28"
-}
-
-<> 2025-08-06T192305.500.json
-
-###
-
-POST http://localhost:9595/patients
-Content-Type: application/json
-Content-Length: 173
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "John Doe Kafka Test",
-  "email": "kafka_test11@example.com",
-  "address": "123 main street22",
-  "dateOfBirth": "1995-09-09",
-  "registeredDate": "2024-11-28"
-}
-
-<> 2025-08-06T192259.500.json
-
-###
-
-POST http://localhost:9595/patients
-Content-Type: application/json
-Content-Length: 142
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "John Doe Kafka Test",
-  "email": "kafka_test11@example.com",
-  "address": "123 main street22",
-  "registeredDate": "2024-11-28"
-}
-
-<> 2025-08-06T192245.500.json
-
-###
-
-POST http://localhost:9595/patients
-Content-Length: 205
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-Content-Type: application/json
-
-{
-  "name": "John Doe Kafka Test",
-  "email": "kafka_test11@example.com",
-  "address": "123 main street22",
-  "dateOfBirth": "1995-09-09",
-  "registeredDate": "2024-11-28"
-}
-
-<> 2025-08-06T192213.415.json
-
-###
-
-POST http://localhost:9595/patients
-Content-Length: 250
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-Content-Type: application/json
-Authorization: Bearer your_actual_token_here
-
-{
-  "name": "John Doe Kafka Test",
-  "email": "kafka_test11@example.com",
-  "address": "123 main street22",
-  "dateOfBirth": "1995-09-09",
-  "registeredDate": "2024-11-28"
-}
-
-<> 2025-08-06T192157.415.json
-
-###
-
-POST http://localhost:9595/patients
-Content-Type: application/json
-Content-Length: 142
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "John Doe Kafka Test",
-  "email": "kafka_test11@example.com",
-  "address": "123 main street22",
-  "registeredDate": "2024-11-28"
-}
-
-<> 2025-08-06T191930.500.json
-
-###
-
-GET http://localhost:9595/patients
-Accept: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-
-<> 2025-08-06T191921.200.json
-
-###
-
-GET http://localhost:9595/patients
-Accept: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-
-<> 2025-08-06T191620.200.json
-
-###
-
-POST http://localhost:9595/patients
-Content-Type: application/json
-Content-Length: 142
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "John Doe Kafka Test",
-  "email": "kafka_test11@example.com",
-  "address": "123 main street22",
-  "registeredDate": "2024-11-28"
-}
-
-<> 2025-08-06T191548.500.json
 
 ###
 

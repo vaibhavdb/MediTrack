@@ -1,6 +1,6 @@
 ### update existing request to example server
 
-PUT http://localhost:9595/patients/09a966d7-384d-4afa-9c56-f63cc8558c8d
+PUT http://localhost:9595/patients/223e4567-e89b-12d3-a456-426614174014
 Content-Type: application/json
 
 {
