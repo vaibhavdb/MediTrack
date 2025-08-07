@@ -2,7 +2,7 @@
 
 POST http://localhost:9595/patients
 
-Content-Type: application/json
+Accept: application/json
 
 {
   "name": "John Doe Kafka Test",

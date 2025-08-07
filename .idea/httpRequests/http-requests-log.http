@@ -1,4 +1,93 @@
 POST http://localhost:9595/patients
+Content-Length: 199
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+Accept: application/json
+
+{
+  "name": "John Doe Kafka Test",
+  "email": "kafka_test11@example.com",
+  "address": "123 main street22",
+  "dateOfBirth": "1995-09-09",
+  "registeredDate": "2024-11-28"
+}
+
+<> 2025-08-07T165635.415.json
+
+###
+
+POST http://localhost:9595/patients
+Content-Length: 205
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+Content-Type: application/json
+
+{
+  "name": "John Doe Kafka Test",
+  "email": "kafka_test11@example.com",
+  "address": "123 main street22",
+  "dateOfBirth": "1995-09-09",
+  "registeredDate": "2024-11-28"
+}
+
+<> 2025-08-07T165609.415.json
+
+###
+
+GET http://localhost:9595/patients
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2025-08-07T165550.200.json
+
+###
+
+POST http://localhost:9595/patients
+Content-Length: 205
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+Content-Type: application/json
+
+{
+  "name": "John Doe Kafka Test",
+  "email": "kafka_test11@example.com",
+  "address": "123 main street22",
+  "dateOfBirth": "1995-09-09",
+  "registeredDate": "2024-11-28"
+}
+
+<> 2025-08-07T165547.415.json
+
+###
+
+POST http://localhost:9595/patients
+Content-Length: 205
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+Content-Type: application/json
+
+{
+  "name": "John Doe Kafka Test",
+  "email": "kafka_test11@example.com",
+  "address": "123 main street22",
+  "dateOfBirth": "1995-09-09",
+  "registeredDate": "2024-11-28"
+}
+
+<> 2025-08-07T165537.415.json
+
+###
+
+POST http://localhost:9595/patients
 Content-Length: 205
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
 Accept-Encoding: br, deflate, gzip, x-gzip
@@ -740,15 +829,6 @@ User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
 Accept-Encoding: br, deflate, gzip, x-gzip
 
 <> 2025-08-06T181012.200.json
-
-###
-
-GET http://localhost:9595/patients
-Accept: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-
-<> 2025-08-06T093406.200.json
 
 ###
 
