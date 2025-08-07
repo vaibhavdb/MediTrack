@@ -1,0 +1,12 @@
+### update existing request to example server
+
+PUT http://localhost:9595/patients/09a966d7-384d-4afa-9c56-f63cc8558c8d
+Content-Type: application/json
+
+{
+    "name": "John Doe Kafka Test",
+    "email": "kafka11@example.com",
+    "address": "123 main street22",
+    "dateOfBirth": "1995-09-09",
+    "registeredDate": "2024-11-28"
+  }

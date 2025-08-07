@@ -105,9 +105,16 @@
     "dateOfBirth": "1987-10-17"
   },
   {
-    "id": "7f0590c2-41d3-4cec-a9f9-3de0d27ccbb3",
+    "id": "fce5cb5d-2e48-4d36-9792-41ac269aecf2",
     "name": "John Doe Kafka Test",
     "email": "kafka_test11@example.com",
+    "address": "123 main street22",
+    "dateOfBirth": "1995-09-09"
+  },
+  {
+    "id": "28513b0e-8f0d-4154-a149-cc8693d9a78c",
+    "name": "John Doe Kafka Test",
+    "email": "",
     "address": "123 main street22",
     "dateOfBirth": "1995-09-09"
   }
