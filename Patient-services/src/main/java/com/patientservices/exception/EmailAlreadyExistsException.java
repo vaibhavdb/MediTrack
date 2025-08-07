@@ -1,6 +1,8 @@
 package com.patientservices.exception;
 
-public class EmailAlreadyExistsException extends RuntimeException{
+public class EmailAlreadyExistsException extends RuntimeException {
 
-    public EmailAlreadyExistsException(String message) { super(message);}
+    public EmailAlreadyExistsException(String message) {
+        super(message);
+    }
 }
