@@ -1,7 +1,10 @@
 package com.billingservice.grpc;
 
+
 import billing.BillingRequest;
 import billing.BillingResponse;
+import billing.BillingServiceGrpc;
+
 import billing.BillingServiceGrpc.BillingServiceImplBase;
 import io.grpc.stub.StreamObserver;
 import net.devh.boot.grpc.server.service.GrpcService;
@@ -19,6 +22,8 @@ public class BillingGrpcService extends BillingServiceImplBase {
                                      StreamObserver<BillingResponse> responseObserver) {
 
         log.info("createBillingAccount request received {}", billingRequest.toString());
+
+        // Business logic - e.g save to database, perform calculates etc
 
         BillingResponse response = BillingResponse.newBuilder()
                 .setAccountId("12345")

@@ -1,4 +1,7 @@
 package com.billingservice;
+import billing.BillingRequest;
+import billing.BillingResponse;
+import billing.BillingServiceGrpc;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

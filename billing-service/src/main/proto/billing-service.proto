@@ -13,7 +13,7 @@ message BillingRequest {
   string email = 3;
 }
 
-message  BillingResponse {
+message BillingResponse {
   string accountId = 1;
   string status = 2;
 }
