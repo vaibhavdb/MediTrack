@@ -1,6 +1,5 @@
 package com.patientservices.grpc;
 
-
 import billing.BillingRequest;
 import billing.BillingResponse;
 import billing.BillingServiceGrpc;
